@@ -78,9 +78,10 @@ li:hover {
 
 input[type="text"] {
   margin: 1.5rem 0;
+  margin-left: 15%;
   outline: none;
   background: transparent;
-  border: solid red;
+
   color: inherit;
   border-bottom: 1px solid currentColor;
 }
@@ -137,20 +138,43 @@ button:focus {
   }
 
   main {
-    border: solid green;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     place-items: center;
   }
 }
 
-section {
-  border: solid blue;
+.text {
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 5%;
 }
 
-.text {
-  border: solid yellow;
-  margin-right: 30%;
-  margin-left: 25%;
-  margin-top: 5%;
+.side {
+  margin-right: 75%;
+  margin-top: -24%;
+  padding-bottom: 70%;
+  background-color: #333;
+}
+
+.side2 {
+  margin-right: 0%;
+  margin-left: 75%;
+  margin-top: -70.3%;
+  padding-bottom: 70%;
+  background-color: #333;
+}
+
+.side3 {
+  margin-right: 75%;
+  margin-top: -200%;
+  padding-bottom: 340%;
+  background-color: #333;
+}
+
+.side4 {
+  margin-right: 0%;
+  margin-left: 75%;
+  margin-top: -350%;
+  padding-bottom: 350%;
+  background-color: #333;
 }
